@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+.mypicture {
+  width: 100vw;
+  height: auto;
+  object-fit: cover;}
+.container {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+.title {
+  position: absolute;
+  font-size: 4vw;
+  color: #36454f;
+  /* background: lime; */
+  text-align: left;
+  opacity: 0.8;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  margin: 0 0vw 0 20vw;
+}
+#toptitle {
+  top: 10vw;
+  left: 0vw;
+}
+#sndtitle {
+  top: 14vw;
+}
+#rdtitle {
+  top: 20vw;
+  font-weight: 200;
+  font-size: 3vw;
+  text-align: center;
+  /* border-top: 0.1px solid #798a94; */
+}
+#myline {
+  top: 20vw;
+  left: 21vw;
+  width: 16vw;
+  height: 0.1vw;
+  color: black;
+  background: #936B51;
+  z-index: 999;
+  position: absolute;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: gray;
+}
+
+.App-link {
+  color: gray;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  } 
+}*/
