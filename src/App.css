@@ -4,7 +4,8 @@
 .mypicture {
   width: 100vw;
   height: auto;
-  object-fit: cover;}
+  object-fit: cover;
+}
 .container {
   position: relative;
   display: flex;
@@ -17,7 +18,7 @@
   /* background: lime; */
   text-align: left;
   opacity: 0.8;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 700;
   margin: 0 0vw 0 20vw;
 }
@@ -41,7 +42,7 @@
   width: 16vw;
   height: 0.1vw;
   color: black;
-  background: #936B51;
+  background: #936b51;
   z-index: 999;
   position: absolute;
 }

@@ -1,25 +1,24 @@
 import React from "react";
 import REACTDOM from "react-dom/client";
-import Scroll from "./scroll"
+import DownButton from "./downbutton";
 import "./App.css";
 import mypicture from "./image/vanessaSmall.jpg";
 function App() {
   return (
     <div className="App">
       <div className="container">
+        <DownButton />
         <img src={mypicture} className="mypicture" alt="mypicture" />
         <div id="toptitle" className="title">
           Hi{" "}
-        </div> 
+        </div>
         <div id="sndtitle" className="title">
           I'm Vanessa
         </div>
         <div id="rdtitle" className="title">
-          React Developer 
-         <Scroll/> 
-        </div> 
+          React Developer
+        </div>
         <div id="myline"></div>
-        
       </div>
 
       <p>
